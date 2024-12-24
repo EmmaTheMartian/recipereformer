@@ -1,0 +1,35 @@
+modLoader = "kotlinforforge"
+loaderVersion = "[5.3,)"
+issueTrackerURL = "https://github.com/emmathemartian/recipereformer/issues"
+license = "MIT"
+
+[[mods]]
+modId = "recipereformer"
+version = "${version}"
+displayName = "Recipe Reformer"
+authors = "Emma"
+description = '''
+Reform recipes to fit your revolution
+'''
+#logoFile = ""
+
+[[dependencies.recipereformer]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.recipereformer]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.recipereformer]]
+modId = "kotlinforforge"
+type = "required"
+versionRange = "[5.3,)"
+ordering = "NONE"
+side = "BOTH"
